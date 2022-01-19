@@ -103,7 +103,7 @@ void autonomous(void) {
   Drivetrain.driveFor(reverse, 2, inches, 200, rpm);
 
   // Turns a little to face tall branch
-  Drivetrain.turnFor(right, 34.1, deg, 100, rpm);
+  Drivetrain.turnFor(right, 32, deg, 100, rpm);
   // Move forward to tall branch
   Drivetrain.driveFor(49.5, inches, 100, rpm);
   Drivetrain.driveFor(9, inches, 50, rpm);
@@ -138,7 +138,7 @@ void autonomous(void) {
   wait(0.4, sec);
   // Turn to corner
 
-  Drivetrain.turnFor(left, 40, degrees, 100, rpm);
+  Drivetrain.turnFor(left, 43, degrees, 100, rpm);
   // Drive to ramp
   Drivetrain.driveFor(forward, 5, inches, 100, rpm);
   // turn to face platform
